@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+    <%- include('partials/head')%>
+
+</head>
+<body>
+    <%- include('partials/navegacion')%>
+
+
+    <!-- main content -->
+
+    <header 
+    class="container vh-100 d-flex justify-content-center align-items-center">
+      <img src="logo.png" alt="" class="w-25">
+      <h1 class="display-1 my-5 text-uppercase fw-bold  ">adrid</h1>
+    </header>
+
+<main class="vh-150 container pt-2 text-center d-flex justify-content-center align-items-center">
+  <section>
+    <h1 class="display-2">Sobre Mi</h1>
+    <p>Hola, soy Marcelo Madrid, estudiante de Ingeniería en Sistemas de Información. Actualmente, estoy cursando mi tercer año de la carrera. He creado esta página para poner a prueba todo el conocimiento que estoy adquiriendo tanto en la universidad como en los cursos adicionales que realizo por mi cuenta. Me encanta la programación y me apasiona aprender más, aunque no siempre tengo mucho tiempo para programar. Esta mini página la he desarrollado con el tiempo limitado que tengo, pero en el futuro la iré mejorando y añadiendo más funcionalidades.
+
+      Pueden contactarse conmigo si están interesados en mis conocimientos o para darme consejos sobre cómo mejorar profesionalmente.</p>
+  </section>
+</main>
+<%- include('partials/footer')%>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+</html>
